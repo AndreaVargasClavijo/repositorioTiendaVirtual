@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual De Moda</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Imprima&family=Public+Sans&display=swap" rel="stylesheet"> 
+</head>
+<body>
+   <header class="header">
+    <a href="index.html">
+        <img class="header__logo" src="img/logo.png" alt="logotipo">
+    </a>
+   </header>
+   <nav class="navegacion">
+    <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+   </nav>
+
+   <main class="contenedor">
+    <h1 class="contenedor__h1">React Js</h1>
+
+    <div class="camisa">
+        <img class="camisa__imagen" src="img/3.jpg" alt="imagen del producto">
+        <div class="camisa__contenido">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quasi! Eveniet labore doloribus, velit maxime, adipisci molestiae distinctio minus commodi recusandae.</p>
+            <form class="formulario">
+                <select class="formulario__campo">
+                    <option disabled selected>-- selecionar talla --</option>
+                    <option>talla s</option>
+                    <option>talla m</option>
+                    <option>talla l</option>
+                </select>
+                <input class="formulario__campo" type="number" placeholder="cantidad" min="1">
+                <input class="formulario__submit"type="submit" value="agregar al carrito">
+            </form>
+        </div>
+    </div>
+   </main>
+    
+   <footer class="footer">
+    <p class="footer__texto">Tienda virtual de moda - todos los derechos reservados</p>
+   </footer>
+</body>
+</html>
